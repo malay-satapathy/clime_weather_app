@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+//import history from '../history/history';
+import { withRouter } from "react-router-dom";
 //import magnifier from "../assets/magnifier.svg";
 import '../styles/search.css'; 
 
@@ -52,7 +54,7 @@ export class Search extends Component {
       .then(function (jsonResponse) {
         console.log(jsonResponse);
         thisThis.props.updateWeather(jsonResponse);
-        //history.push("/results");
+        thisThis.props.history.push("/results");
       })
       .catch(function (error) {
         thisThis.setState({
@@ -65,18 +67,18 @@ export class Search extends Component {
   render() {
     return (
       <div className={"searchMain " + this.state.error}>
-        <h1 className="citySearch">Clime-mate</h1>
+        <h1 className="citySearch">Cli-mate!</h1>
         <form onSubmit={this.startSearch}>
           <input
             className="citySearch"
-            placeholder="enter city name"
+            placeholder="Enter city name or zip code"
             ref={this.cityInput}
             type="text"
           />
           <input
             className="searchButton"
             type="submit"
-            text="Search"
+            value="Search"
           />
         </form>
       </div>
@@ -84,4 +86,4 @@ export class Search extends Component {
   }
 }
 
-export default Search;
+export default withRouter(Search);
