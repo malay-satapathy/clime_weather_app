@@ -1,5 +1,5 @@
 .searchMain {
-	height: 100vh;
+	height: inherit;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -30,9 +30,10 @@
 	box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px 8px #ffffff;
 }
 
-.searchMain form .citySearch {
+.searchMain form .searchArea {
 	border: none;
 	outline: none;
+	user-select: none;
 	background: none;
 	font-size: 24px;
 	color: #555;

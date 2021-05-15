@@ -1,8 +1,7 @@
 import React, { Component } from "react";
-//import history from '../history/history';
 import { withRouter } from "react-router-dom";
-//import magnifier from "../assets/magnifier.svg";
 import '../styles/search.css'; 
+
 
 export class Search extends Component {
   constructor(props) {
@@ -67,10 +66,10 @@ export class Search extends Component {
   render() {
     return (
       <div className={"searchMain " + this.state.error}>
-        <h1 className="citySearch">Cli-mate!</h1>
+        <h1 className="searchArea">Cli-mate!</h1>
         <form onSubmit={this.startSearch}>
           <input
-            className="citySearch"
+            className="searchArea"
             placeholder="Enter city name or zip code"
             ref={this.cityInput}
             type="text"
@@ -81,6 +80,7 @@ export class Search extends Component {
             value="Search"
           />
         </form>
+        
       </div>
     );
   }
