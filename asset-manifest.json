@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/clime_weather_app/static/css/main.b45b3bb7.chunk.css",
+    "main.js": "/clime_weather_app/static/js/main.d8e7a57f.chunk.js",
+    "main.js.map": "/clime_weather_app/static/js/main.d8e7a57f.chunk.js.map",
+    "runtime-main.js": "/clime_weather_app/static/js/runtime-main.bec28567.js",
+    "runtime-main.js.map": "/clime_weather_app/static/js/runtime-main.bec28567.js.map",
+    "static/js/2.150a9962.chunk.js": "/clime_weather_app/static/js/2.150a9962.chunk.js",
+    "static/js/2.150a9962.chunk.js.map": "/clime_weather_app/static/js/2.150a9962.chunk.js.map",
+    "static/js/3.8b007203.chunk.js": "/clime_weather_app/static/js/3.8b007203.chunk.js",
+    "static/js/3.8b007203.chunk.js.map": "/clime_weather_app/static/js/3.8b007203.chunk.js.map",
+    "index.html": "/clime_weather_app/index.html",
+    "static/css/main.b45b3bb7.chunk.css.map": "/clime_weather_app/static/css/main.b45b3bb7.chunk.css.map",
+    "static/js/2.150a9962.chunk.js.LICENSE.txt": "/clime_weather_app/static/js/2.150a9962.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/clime_weather_app/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bec28567.js",
+    "static/js/2.150a9962.chunk.js",
+    "static/css/main.b45b3bb7.chunk.css",
+    "static/js/main.d8e7a57f.chunk.js"
+  ]
+}
