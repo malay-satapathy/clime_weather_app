@@ -38,14 +38,14 @@ export class Results extends Component {
               <span className="info">{maxTemp}°</span>.
             </p>
           </div>
-          <Link to="/">go back</Link>
+          <Link to="/clime_weather_app/">go back</Link>
         </div>
       );
     } else {
       return (
         <div className="results error hot">
           <h1>Something went wrong somewhere!</h1>
-          <Link to="/">go back</Link>
+          <Link to="/clime_weather_app/">go back</Link>
         </div>
       );
     }

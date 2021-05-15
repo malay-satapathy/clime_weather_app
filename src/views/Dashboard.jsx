@@ -31,7 +31,7 @@ export class Dashboard extends Component {
         <div className="dashboard">
           <Router history={history}>
             <Switch>
-              <Route exact path="/">
+              <Route exact path="/clime_weather_app/">
                 <Search updateWeather={this.updateWeather}></Search>
               </Route>
               <Route path="/results">
