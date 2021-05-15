@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/clime_weather_app/static/css/main.b45b3bb7.chunk.css",
-    "main.js": "/clime_weather_app/static/js/main.d8e7a57f.chunk.js",
-    "main.js.map": "/clime_weather_app/static/js/main.d8e7a57f.chunk.js.map",
+    "main.js": "/clime_weather_app/static/js/main.72e00c6c.chunk.js",
+    "main.js.map": "/clime_weather_app/static/js/main.72e00c6c.chunk.js.map",
     "runtime-main.js": "/clime_weather_app/static/js/runtime-main.bec28567.js",
     "runtime-main.js.map": "/clime_weather_app/static/js/runtime-main.bec28567.js.map",
     "static/js/2.150a9962.chunk.js": "/clime_weather_app/static/js/2.150a9962.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.bec28567.js",
     "static/js/2.150a9962.chunk.js",
     "static/css/main.b45b3bb7.chunk.css",
-    "static/js/main.d8e7a57f.chunk.js"
+    "static/js/main.72e00c6c.chunk.js"
   ]
 }
