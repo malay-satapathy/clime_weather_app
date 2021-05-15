@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { withRouter } from "react-router-dom";
-import '../styles/search.css'; 
-
+import "../styles/search.css";
 
 export class Search extends Component {
   constructor(props) {
@@ -74,13 +73,8 @@ export class Search extends Component {
             ref={this.cityInput}
             type="text"
           />
-          <input
-            className="searchButton"
-            type="submit"
-            value="Search"
-          />
+          <input className="searchButton" type="submit" value="Search" />
         </form>
-        
       </div>
     );
   }
